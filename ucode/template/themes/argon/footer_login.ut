@@ -1,28 +1,28 @@
-{##
-	Argon 是 LuCI 的一个干净的 HTML5 主题。它基于 luci-theme-material Argon 模板。
+{#
+	Argon is a clean HTML5 theme for LuCI. It is based on luci-theme-material Argon Template
 
 	luci-theme-argon
-	版权所有 2020 Jerrykuku <jerrykuku@qq.com>
+	Copyright 2020 Jerrykuku <jerrykuku@qq.com>
 
-	发现错误了吗？请在 GitHub 上创建一个 issue！
+	Have a bug? Please create an issue here on GitHub!
 	https://github.com/jerrykuku/luci-theme-argon/issues
 
-	luci主题Material:
-	版权所有 2015 Lutty Yang <lutty@wcan.in>
+	luci-theme-material:
+	Copyright 2015 Lutty Yang <lutty@wcan.in>
 
-	阿格龙主题
+	Agron Theme
 	https://demos.creative-tim.com/argon-dashboard/index.html
 
-	根据Apache License 2.0向公众授权
--#}}
+	Licensed to the public under the Apache License 2.0
+-#}
 
 </div>
-
+<!-- added style="text-wrap: auto" but on this page it is still not the best solution. I will take it to consideration next time :) -->
 <footer style="text-wrap: auto">
 	<div>
 		<a class="luci-link" href="http://hon2233768.3vzhuji.cn" target="_blank">宏兴智能科技</a>
-		HXZN
-		{{ version.distname }} {{ version.distversion }}-{{ version.distrevision }}
+		<a href="https://github.com/jerrykuku/luci-theme-argon" target="_blank">HXZN </a>
+		<a class="luci-link" href="{{ version.disturl }}" target="_blank">{{ version.distname }} {{ version.distversion }}-{{ version.distrevision }}</a>
 	</div>
 
 </div>
