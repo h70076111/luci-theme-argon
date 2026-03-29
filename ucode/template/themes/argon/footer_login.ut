@@ -24,16 +24,16 @@
 		<a href="http://hon2233768.3vzhuji.cn" target="_blank">HXZN </a>
 		<a class="luci-link" href="{{ version.disturl }}" target="_blank">{{ version.distname }} {{ version.distversion }}-{{ version.distrevision }}</a>
 	</div>
-
+</footer>
 </div>
 </div>
-<脚本>
-	// 感谢 Jo-Philipp Wich <jow@openwrt.org>
+<script>
+	// thanks for Jo-Philipp Wich <jow@openwrt.org>
 	var luciLocation = {{ ctx.path }};
 	var winHeight = window.innerHeight;
 	window.addEventListener('resize', function () {
 		var winWidth = window.innerWidth;
-		if(窗口宽度 < 600){
+		if(winWidth < 600){
 			var newHeight = window.innerHeight;
 			var keyboradHeight = newHeight - winHeight;
 			var ftcElement = document.querySelector(".ftc");
